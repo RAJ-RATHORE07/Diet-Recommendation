@@ -5,13 +5,6 @@
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
-# Diet-Recommendation-System
-
-## :bookmark_tabs:Table of contents
-* [General info](#general-info)
-* [Development](#development)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
 
 ### What is a food recommendation engine?
@@ -85,14 +78,5 @@ Then open http://localhost:8501 and enjoy :smiley:.
 PS: You should have docker and docker-compose already installed
 
 
-## Citation
-```
-@software{narjis_2024_12507829,
-  author       = {RAJ RAJESHWARI},
-  title        = {Diet recommendation system},
-  month        = NOV,
-  year         = 2025,
-  version      = {v1.0.1},
 
-}
 ```
