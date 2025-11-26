@@ -5,7 +5,10 @@
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
-
+<img width="1896" height="920" alt="image" src="https://github.com/user-attachments/assets/5404ec72-a699-4bdf-9bd4-e1e78810fe25" />
+<img width="949" height="437" alt="image" src="https://github.com/user-attachments/assets/b95f5458-d770-467e-bfcc-aa3eb614cff9" />
+<img width="1912" height="920" alt="image" src="https://github.com/user-attachments/assets/0a88da12-4318-4cc6-804d-69058dc58bd7" />
+<img width="1520" height="779" alt="image" src="https://github.com/user-attachments/assets/a882e69d-f416-4774-8713-b8102d6be2cd" />
 
 ### What is a food recommendation engine?
 A food recommendation engine using a content-based approach is an important tool for promoting healthy eating habits. This type of engine uses information about the nutritional content and ingredients of foods to make personalized recommendations to users. One of the key advantages of a content-based approach is that it takes into account an individual's dietary restrictions and preferences, such as allergies or food preferences. By providing users with tailored recommendations, a content-based food recommendation engine can help them make better choices about what to eat and improve their overall health. Additionally, by recommending a variety of healthy foods, it can also help users to discover new and nutritious options, expand their dietary horizons and overcome food boredom. All these can lead to a better and well-rounded diet, which can have a positive impact on long-term health outcomes.
