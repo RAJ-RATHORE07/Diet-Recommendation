@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/582718021.svg)](https://zenodo.org/doi/10.5281/zenodo.12507163)
 
 <h1 align="center">Diet Recommendation System</h1>
-<div align= "center"><img src="Assets/logo_img1.jpg" />
+<div align= "center">
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
@@ -13,15 +13,13 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## :scroll: General info
-### Motivation
-People from all around the world are getting more concerned in their health and way of life in today's modern environment. However, avoiding junk food and exercising alone are insufficient; we also need to eat a balanced diet. We can live a healthy life with a balanced diet based on our height, weight, and age. Your diet can help you achieve and maintain a healthy weight, lower your chance of developing chronic diseases (including cancer and heart disease), and improve your general health when combined with physical activity. Nevertheless, there is a little SOTA project on food/diet recommendation system. Therefore I got the idea to build a content-based recommendation system for this purpose using machine learning. 
+
 ### What is a food recommendation engine?
 A food recommendation engine using a content-based approach is an important tool for promoting healthy eating habits. This type of engine uses information about the nutritional content and ingredients of foods to make personalized recommendations to users. One of the key advantages of a content-based approach is that it takes into account an individual's dietary restrictions and preferences, such as allergies or food preferences. By providing users with tailored recommendations, a content-based food recommendation engine can help them make better choices about what to eat and improve their overall health. Additionally, by recommending a variety of healthy foods, it can also help users to discover new and nutritious options, expand their dietary horizons and overcome food boredom. All these can lead to a better and well-rounded diet, which can have a positive impact on long-term health outcomes.
 
 ### What is a content-based recommendation engine?
 A content-based recommendation engine is a type of recommendation system that uses the characteristics or content of an item to recommend similar items to users. It works by analyzing the content of items, such as text, images, or audio, and identifying patterns or features that are associated with certain items. These patterns or features are then used to compare items and recommend similar ones to users.
-<div align= "center"><img src="Assets/content_based_img.webp" /></div>
+
 
 ### Why content-based approach?
 
@@ -36,11 +34,7 @@ A content-based recommendation engine is a type of recommendation system that us
 * Scalability is a challenge.
 * Attributes may be incorrect or inconsistent. 
 
-## :computer:Development
-### Model developement
-The recommendation engine is built using Nearest Neighbors alogrithm which is an unsupervised learner for implementing neighbor searches. It acts as a uniform interface to three different nearest neighbors algorithms: BallTree, KDTree, and a brute-force algorithm based on routines in sklearn.metrics.pairwise. For our case, we used the brute-force algorithm using cosine similarity due to its fast computation for small datasets.
 
-$$cos(theta) = (A * B) / (||A|| * ||B||)$$
 
 ### Dataset
 I used Food.com kaggle dataset Data with over 500,000 recipes and 1,400,000 reviews from Food.com. Visit this [kaggle](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews?select=recipes.csv) link for more details.
@@ -57,9 +51,7 @@ By using Docker, you can ensure that the environment in which the application is
 #### Docker-Compose
 My project is composed of different services (frontend,API). Therefore, our application should run on multiple containers. With the help of Docker-compose we can share our application using the yaml file that define the services that runs together.
 
-### Project Architecture
 
-<div align= "center"><img src="Assets/Architecture_diagram.png" width="600" height="400"/></div>
 
 
 ## :rocket: Technologies
@@ -81,7 +73,7 @@ The project is created with:
 ### Run it locally
 #### Clone the repo
 ```
-$ git clone https://github.com/zakaria-narjis/Diet-Recommendation-System
+$ git clone https://github.com/RAJ-RATHORE07/Diet-Recommendation.git
 ```
 ### docker-compose
 In the project root run:
@@ -91,20 +83,16 @@ $ docker-compose up -d --build
 Then open http://localhost:8501 and enjoy :smiley:.
 
 PS: You should have docker and docker-compose already installed
-### Use the hosted version on Streamlit Cloud
 
-https://diet-recommendation-system.streamlit.app/
 
 ## Citation
 ```
 @software{narjis_2024_12507829,
-  author       = {Narjis, Zakaria},
+  author       = {RAJ RAJESHWARI},
   title        = {Diet recommendation system},
-  month        = jun,
-  year         = 2024,
-  publisher    = {Zenodo},
+  month        = NOV,
+  year         = 2025,
   version      = {v1.0.1},
-  doi          = {10.5281/zenodo.12507829},
-  url          = {https://doi.org/10.5281/zenodo.12507829}
+
 }
 ```
